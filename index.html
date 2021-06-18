@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji-translator</title>
+    <link id="theme" rel="stylesheet" href="./Styles/dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+    <div class="toggle">
+        <label class="switch">
+            <input type="checkbox" checked id="togg">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    <main>
+        <h1>Translate Me</h1>
+        <textarea name="input" id="input" placeholder="Enter text to translate" ></textarea>
+        <button id="btn-translate">Translate</button>
+        <h2>Your Output is this:</h2>
+        <div  class="output">
+            <p id="output">
+            </p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
